@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DrinkData>
+	<Drinks>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Misto</DrinkName>
+			<Price>4.5</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Americano</DrinkName>
+			<Price>5.75</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Bianco</DrinkName>
+			<Price>6</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Cappuccino</DrinkName>
+			<Price>7.5</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Macchiato</DrinkName>
+			<Price>6.75</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Con Panna</DrinkName>
+			<Price>8</Price>
+		</Drink>
+		<Drink>
+			<Category>Coffee</Category>
+			<DrinkName>Mocha</DrinkName>
+			<Price>7.75</Price>
+		</Drink>
+		<Drink>
+			<Category>ColdDrink</Category>
+			<DrinkName>Soda</DrinkName>
+			<Price>5.5</Price>
+		</Drink>
+		<Drink>
+			<Category>ColdDrink</Category>
+			<DrinkName>Cola</DrinkName>
+			<Price>5.5</Price>
+		</Drink>
+		<Drink>
+			<Category>ColdDrink</Category>
+			<DrinkName>Meyve Suyu</DrinkName>
+			<Price>5.5</Price>
+		</Drink>
+		<Drink>
+			<Category>ColdDrink</Category>
+			<DrinkName>Limonata</DrinkName>
+			<Price>5.5</Price>
+		</Drink>
+		<Drink>
+			<Category>HotDrink</Category>
+			<DrinkName>Çay</DrinkName>
+			<Price>3</Price>
+		</Drink>
+		<Drink>
+			<Category>HotDrink</Category>
+			<DrinkName>Sıcak çikolata</DrinkName>
+			<Price>3</Price>
+		</Drink>
+		<Drink>
+			<Category>HotDrink</Category>
+			<DrinkName>Chai Tea Latte</DrinkName>
+			<Price>6.5</Price>
+		</Drink>
+	</Drinks>
+</DrinkData>
