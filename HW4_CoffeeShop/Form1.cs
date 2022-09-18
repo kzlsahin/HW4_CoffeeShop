@@ -11,6 +11,7 @@ namespace HW4_CoffeeShop
         int numberOfShotsAdded = 0;
         DataProvider dataProvider;
         string[] DrinkNames;
+        
         public Form1(DataProvider _dataProvider)
         {
             InitializeComponent();
@@ -18,10 +19,8 @@ namespace HW4_CoffeeShop
             comboBoxCoffees.Items.AddRange(dataProvider.GetDrinkNames(DrinkCategories.Coffee));
             comboBoxColdDrinks.Items.AddRange(dataProvider.GetDrinkNames(DrinkCategories.ColdDrink));
             comboBoxHotDrinks.Items.AddRange(dataProvider.GetDrinkNames(DrinkCategories.HotDrink));
-
-
         }
-
+        
         private OrderItem CreateOrderItem()
         {
             OrderItem item = new OrderItem
@@ -45,6 +44,7 @@ namespace HW4_CoffeeShop
 
             return validation;
         }
+        
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             if (ValidateForm())
@@ -59,16 +59,16 @@ namespace HW4_CoffeeShop
         {
             if(_orderList.Count > 0)
             {
-                LabelTotalAmount.Text = $"Toplam Sipariþ Tutarý: {_orderList.GetPrice(),8:C2}TL"; 
+                LabelTotalAmount.Text = $"Toplam SipariÃ¾ TutarÃ½: {_orderList.GetPrice(),8:C2}TL"; 
             }
-            MessageBox.Show($"Toplam {_orderList.Count} sipariþiniz {_orderList.GetPrice(),8:C2} Tutarýndadýr.");
+            MessageBox.Show($"Toplam {_orderList.Count} sipariÃ¾iniz {_orderList.GetPrice(),8:C2} TutarÃ½ndadÃ½r.");
         }
 
         private void UpdateOrderListBox()
         {
             ListBoxSelectedProducts.BeginUpdate();
-
             ListBoxSelectedProducts.Items.Clear();
+            
             foreach (string item in _orderList.GetStringArray())
             {
                 ListBoxSelectedProducts.Items.Add(item);
